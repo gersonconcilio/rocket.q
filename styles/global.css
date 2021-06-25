@@ -34,7 +34,7 @@ html{
 }
 
 body{
-    /* display: flex; */
+     display: flex; 
     height: 100vh; /*view height*/
     background: var(--background);
 }
