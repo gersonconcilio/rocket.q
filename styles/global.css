@@ -22,6 +22,7 @@ html{
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
     --grey-light: #E5EAF1;
+    --grey-medium: #eaecf2;
 
     /* 1rem = 16px (user agente) = 100% */
     /* 16px - 100%
@@ -103,6 +104,19 @@ button.outlined,
     border: .2rem solid var(--blue);
 }
 
+button.red,
+.button.red{
+    background: var(--red);
+    color: var(--white);
+}
+
+button.grey,
+.button.grey{
+    background: var(--grey-light);
+    color: var(--grey-dark);
+}
+
+/* HEADER */
 .content header{
     width: 80%;
     margin: 3.5rem auto;
